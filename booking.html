@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harvest Printing Centre | Book Online</title>
+  <meta name="description" content="Book online for printing and branding services."/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<a class="whatsapp-float" href="https://wa.me/27768913433" target="_blank">WhatsApp</a>
+
+<div class="topbar">
+  <div class="container topbar-content">
+    <span>📞 076 891 3433</span>
+    <span>📧 harvest8520print@gmail.com</span>
+    <span>📍 266 President Arcade, Francis Baard, Shop 9AB</span>
+  </div>
+</div>
+
+<header>
+  <div class="container navbar">
+    <a href="index.html" class="logo">Harvest <span>Printing Centre</span></a>
+    <button class="menu-toggle">☰</button>
+
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="booking.html" class="active">Book Online</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero small-hero">
+  <div class="container fade-up">
+    <p class="section-tag">Online Booking</p>
+    <h1>Book a Service or Send an Order</h1>
+    <p>Fill in your details below and your request will be saved securely.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container form-wrapper">
+
+    <form class="booking-form premium-form fade-up">
+
+      <div class="form-grid">
+
+        <div>
+          <label>Full Name</label>
+          <input type="text" name="name" required>
+        </div>
+
+        <div>
+          <label>Phone Number</label>
+          <input type="tel" name="phone" required>
+        </div>
+
+        <div>
+          <label>Email Address</label>
+          <input type="email" name="email" required>
+        </div>
+
+        <div>
+          <label>Service</label>
+          <select name="service" required>
+            <option value="">Select service</option>
+            <option>Business Cards</option>
+            <option>Golf T-Shirts</option>
+            <option>Round Neck T-Shirts</option>
+            <option>Invoice Books</option>
+            <option>Books</option>
+            <option>Gift Bags</option>
+            <option>Plastic Bags</option>
+            <option>Programmes</option>
+            <option>Acrylic Sign</option>
+            <option>3D Signage</option>
+            <option>Lanyards</option>
+            <option>Flags</option>
+            <option>Gazebos</option>
+            <option>Photo Canvas</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Quantity</label>
+          <input type="number" name="quantity" min="1" required>
+        </div>
+
+        <div>
+          <label>Preferred Date</label>
+          <input type="date" name="date">
+        </div>
+
+      </div>
+
+      <label>Project Details</label>
+      <textarea
+        name="message"
+        rows="6"
+        placeholder="Describe your project"></textarea>
+
+      <button type="submit" class="btn btn-primary full-btn">
+        Submit Booking
+      </button>
+
+      <div id="form-status"
+           style="margin-top:15px;font-weight:700;">
+      </div>
+
+    </form>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-grid">
+
+    <div>
+      <h3>Harvest Printing Centre</h3>
+      <p>Professional printing and branding solutions.</p>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <p>076 891 3433</p>
+      <p>harvest8520print@gmail.com</p>
+    </div>
+
+    <div>
+      <h4>Socials</h4>
+      <a href="https://wa.me/27768913433" target="_blank">WhatsApp</a>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+    </div>
+
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script type="module" src="firebase.js"></script>
+
+</body>
+</html>
